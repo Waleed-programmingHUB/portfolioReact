@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+
 const ContactComponent: React.FC = () => {
     const title = "Contact - Waleed Portfolio";
     return (
