@@ -12,7 +12,7 @@ const TypingEffect: React.FC = () => {
 
     useEffect(() => {
         const typingInterval = setInterval(() => {
-            setDisplayText((prev) => texts[textIndex].substring(0, charIndex + 1));
+            setDisplayText(() => texts[textIndex].substring(0, charIndex + 1));
             setCharIndex((prev) => prev + 1);
         }, 100);
 

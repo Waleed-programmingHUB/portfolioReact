@@ -1,0 +1,13 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["*.{js,scss,css,png,jpg,gif,ico,svg}"]
+  },
+  "routes": [
+    {
+      "route": "/home",
+      "redirect": "/app",
+      "statusCode": 301
+    }
+  ]
+}
