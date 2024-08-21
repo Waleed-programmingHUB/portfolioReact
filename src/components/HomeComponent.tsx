@@ -9,6 +9,9 @@ const HomeComponent: React.FC = () => {
         <>
             <Helmet>
                 <title>Waleed Portfolio</title>
+                <meta name="description" content="Portfolio Website for Showcasing our Skill in Dotnet Fullstack developer" />
+                <meta name="keywords" content="Waleed Ali Sarwar, Software Developer, AI, ASP.NET, Full-stack Development, Portfolio, BSBI, Virtual University of Pakistan" />
+                <meta name="author" content="Waleed Ali Sarwar" />
             </Helmet>
             <section className='intro-section'>
                 <code className='code-left'>
