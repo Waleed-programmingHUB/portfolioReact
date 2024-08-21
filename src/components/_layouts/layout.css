@@ -1,13 +1,80 @@
-header{
-    background-color: #333; /* Black background color */
-    position: fixed; /* Make it stick/fixed */
-    top: -50px; /* Hide the navbar 50 px outside of the top view */
-    width: 100%; /* Full width */
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+header {
+  background-color: gold; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
-.img-style{
-    width: 50px;
-    height: auto;
-    user-select: none;
-    -webkit-user-drag: none;
+.img-style {
+  width: 50px;
+  height: auto;
+  user-select: none;
+  -webkit-user-drag: none;
 }
+.intro-section {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: aliceblue;
+}
+.intro-content {
+    margin: auto;
+    font-family: "Nanum Gothic Coding", monospace;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 70%;
+}
+.intro-info{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.typing-container {
+  display: inline-flex; /* Use flexbox for alignment */
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.typing-text {
+  display: inline;
+}
+
+.cursor {
+  display: inline-block; /* Ensure the cursor aligns correctly */
+  font-weight: bold;
+  color: aliceblue; /* Change color as needed */
+  animation: blink 1s step-start infinite;
+  position: relative; /* Adjust cursor position relative to text */
+  margin-left: 2px; /* Adjust the margin if needed */
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+code {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-size: 3rem;
+  display: flex;
+  text-transform: lowercase;
+}
+.code-left {
+  padding-top: 3rem;
+  padding-left: 3rem;
+  justify-content: flex-start;
+}
+.code-right {
+  padding-top: 3rem;
+  padding-right: 3rem;
+  justify-content: flex-end;
+}
+
