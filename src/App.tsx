@@ -5,7 +5,6 @@ import './App.css';
 import Footer from './components/_layouts/Footer';
 import Header from './components/_layouts/Header';
 import HomeComponent from './components/HomeComponent';
-import ContactComponent from './components/ContactComponent';
 import ErrorComponent from './components/ErrorComponent';
 
 
@@ -16,7 +15,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" Component={HomeComponent} />
         <Route path="/app" Component={HomeComponent} />
-        <Route path="/contact" Component={ContactComponent} />
+        {/* <Route path="/contact" Component={ContactComponent} /> */}
         <Route path="*" Component={ErrorComponent} />
       </Routes>
       <Footer />

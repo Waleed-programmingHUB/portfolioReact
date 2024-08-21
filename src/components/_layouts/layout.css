@@ -7,6 +7,10 @@ header {
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
+section{
+  user-select: none;
+  -webkit-user-drag: none;
+}
 .img-style {
   width: 50px;
   height: auto;
@@ -78,3 +82,37 @@ code {
   justify-content: flex-end;
 }
 
+
+/* Error Component */
+.error-section {
+  height: 100%;
+  height: 75vh;
+}
+.error-content {
+  margin: auto;
+  font-family: "Nanum Gothic Coding", monospace;
+  width: 75%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+}
+.error-content h1 {
+  padding-bottom: 1.5rem;
+}
+.error-content p {
+  padding-bottom: 1.5rem;
+}
+
+footer{
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  padding: 1rem;
+}
+.link-style{
+  text-decoration: none;
+  color: black;
+}
+.link-style:hover{
+  text-decoration: underline;
+}

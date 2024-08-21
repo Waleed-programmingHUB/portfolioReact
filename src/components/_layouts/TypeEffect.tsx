@@ -2,10 +2,8 @@ import React, { useEffect, useState } from "react";
 
 const TypingEffect: React.FC = () => {
     const texts = [
-        '.NET Full Stack Developer',
-        'Frontend Development',
-        'Backend Development',
-        'ASP.NET Development',
+        '.NET',
+        'Fullstack Developer',
     ];
 
     const [displayText, setDisplayText] = useState('');
@@ -32,7 +30,7 @@ const TypingEffect: React.FC = () => {
     return (
         <>
             <h1>Hi,</h1>
-            <h1>It's Waleed Ali Sarwar</h1>
+            <h1>I am Waleed Ali Sarwar</h1>
             <div className="typing-container">
                 <span className="typing-text">{displayText}</span>
                 <span className="cursor">|</span>
