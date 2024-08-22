@@ -104,6 +104,70 @@ code {
   padding-bottom: 1.5rem;
 }
 
+/* Contact Component */
+.contact-section {
+  height: 100%;
+  height: 100vh;
+  background-color: burlywood;
+}
+.contact-content {
+  margin: auto;
+  font-family: "Nanum Gothic Coding", monospace;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+}
+.form-group {
+  display: flex;
+  width: 600px;
+  padding: 1rem;
+}
+.form-group label {
+  padding-right: 1rem;
+  width: 100px;
+}
+.form-group input {
+  padding: 0.5rem;
+  width: 100%;
+}
+.form-group textarea {
+
+  padding: 0.5rem;
+  width: 100%;
+  height: 100px;
+}
+.form-group input,textarea{
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.form-group button {
+  padding: 0.5rem;
+  width: 80px;
+  border-radius: 3px;
+  border: 1px solid gold;
+  background-color:white ;
+  color: black;
+  font-family: "Nanum Gothic Coding", monospace;
+  cursor: pointer;
+}
+form h2,p {
+  padding-bottom: 1.5rem;
+}
+
+.form-group button:hover {
+  background-color: gold;
+  color: white;
+}
+.contact-img{
+  width: 45px;
+  height: 45px;
+  margin-bottom: 10px;
+  background: url('../../assets/contact.png') no-repeat center center/cover;
+}
+
 footer{
   text-align: center;
   font-family: "Nanum Gothic Coding", monospace;
@@ -115,4 +179,79 @@ footer{
 }
 .link-style:hover{
   text-decoration: underline;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .form-contact{
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  code{
+    font-size: 1.5rem;
+  }
+  .code-left {
+    padding-left: 1rem;
+
+  }
+  .code-right {
+  padding-right: 1rem;
+  }
+  .intro-content {
+    flex-direction: column;
+  }
+  .intro-info {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+  }
+  .form-group label {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .form-group input {
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+
+  .form-group textarea {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    width: 100%;
+    height: 100px;
+  }
+
+  .form-group button {
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid gold;
+    background-color: white;
+    color: black;
+    font-family: "Nanum Gothic Coding", monospace;
+    cursor: pointer;
+  }
+  form h2,p {
+    padding-bottom: 1.5rem;
+  }
+
+  .form-group button:hover {
+    background-color: gold;
+    color: white;
+  }
+  .contact-img {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 10px;
+    background: url('../../assets/contact.png') no-repeat center center/cover;
+  }
 }
