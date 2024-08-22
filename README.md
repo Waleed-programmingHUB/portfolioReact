@@ -10,8 +10,7 @@ This portfolio is a testament to my journey as a developer, combining my knowled
 
 - **React.js**: The core framework for building this portfolio, enabling dynamic content and a responsive design.
 - **HTML5 & CSS3**: For crafting the structure and styling, ensuring a modern and clean look.
-- **JavaScript (ES6+)**: Enhancing interactivity and providing the logic behind various components.
-- **Bootstrap/Tailwind CSS**: For responsive design and consistent styling across different devices.
+- **Typescript**: Enhancing interactivity and providing the logic behind various components.
 - **Azure Static Web Apps**: Deployed on Azure Static Web Apps for fast, secure, and scalable hosting without the need for Docker.
 - **Git & GitHub**: Version control and collaboration tools used throughout the development process.
 
@@ -38,5 +37,6 @@ I plan to continuously update this portfolio with new projects, skills, and impr
 - To showcase my skills in React and front-end development.
 - To create a platform where I can demonstrate my growth as a developer.
 - To provide potential employers or collaborators with a clear understanding of my capabilities.
-
+Production Site Link  : ["https://www.waleedalisarwar.live"]
+Development Site Link : ["https://calm-pond-03fd48000-preview.eastasia.5.azurestaticapps.net"]
 Thank you for visiting my portfolio! Feel free to explore, and don't hesitate to reach out if you'd like to connect.
