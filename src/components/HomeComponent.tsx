@@ -1,10 +1,11 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import TypingEffect from './_layouts/TypeEffect';
 import './_layouts/layout.css';
+import AboutMe from './_layouts/AboutMe';
+import Intro from './_layouts/Intro';
+import Education from './_layouts/Education';
 
 const HomeComponent: React.FC = () => {
-    const i: string = 'Intro';
     return (
         <>
             <Helmet>
@@ -13,20 +14,10 @@ const HomeComponent: React.FC = () => {
                 <meta name="keywords" content="Waleed Ali Sarwar, Software Developer, AI, ASP.NET, Full-stack Development, Portfolio, BSBI, Virtual University of Pakistan" />
                 <meta name="author" content="Waleed Ali Sarwar" />
             </Helmet>
-            <section className='intro-section'>
-                <code className='code-left'>
-                    &lt;{i}&gt;
-                </code>
-                <div className='intro-content'>
-                    <div className='intro-info'>
-                        {<TypingEffect />}
-                    </div>
-                </div>
-                <code className='code-right'>
-                    &lt;/{i}&gt;
-                </code>
-            </section>
 
+            <Intro />
+            <AboutMe />
+            <Education/>
         </>
     );
 };

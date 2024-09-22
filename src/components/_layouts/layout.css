@@ -7,10 +7,10 @@ header {
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
-section{
+/* section{
   user-select: none;
   -webkit-user-drag: none;
-}
+} */
 .img-style {
   width: 50px;
   height: auto;
@@ -179,6 +179,49 @@ footer{
 }
 .link-style:hover{
   text-decoration: underline;
+}
+
+/* about me */
+.about-me-section {
+  height: 100%;
+  background: black;
+  color: aliceblue;
+}
+
+.about-me-content {
+  margin: auto;
+  width: 80%;
+  font-family: "Nanum Gothic Coding", monospace;
+}
+.lettercase{
+  display: inline-block;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+
+
+.profile{
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  
+}
+.profile img{
+  width: 14%;
+  user-select: none;
+  -webkit-user-drag: none;
+  margin-left: 1em;
+  height: auto;
+  border: 1px solid whitesmoke;
+  border-radius: 50%;
+  transition: .5s ease;
+  object-fit: cover;
+}
+
+.profile p{
+  padding-left: 1rem;
 }
 
 /* Responsive */
